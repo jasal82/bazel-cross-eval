@@ -1,0 +1,3 @@
+#!/bin/bash --norc
+
+PATH=external/toolchain_e6500/sysroots/x86_64-fslsdk-linux/usr/bin:external/toolchain_e6500/sysroots/x86_64-fslsdk-linux/usr/bin/../x86_64-fslsdk-linux/bin:external/toolchain_e6500/sysroots/x86_64-fslsdk-linux/usr/bin/powerpc64-fsl-linux:external/toolchain_e6500/sysroots/x86_64-fslsdk-linux/usr/bin/powerpc64-fsl-linux-uclibc:external/toolchain_e6500/sysroots/x86_64-fslsdk-linux/usr/bin/powerpc64-fsl-linux-musl:$PATH exec -a powerpc64-fsl-linux-gcc external/toolchain_e6500/sysroots/x86_64-fslsdk-linux/usr/bin/powerpc64-fsl-linux/powerpc64-fsl-linux-gcc "$@"

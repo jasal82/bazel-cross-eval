@@ -1,0 +1,5 @@
+#!/bin/bash --norc
+
+exec -a powerpc64-fsl-linux-ar \
+  external/toolchain_e6500/sysroots/x86_64-fslsdk-linux/usr/bin/powerpc64-fsl-linux/powerpc64-fsl-linux-ar \
+  "$@"
